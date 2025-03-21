@@ -1,0 +1,28 @@
+# 依存関係
+node_modules/
+
+# ビルドファイル
+dist/
+build/
+
+# 環境変数
+.env
+
+# データベースファイル
+*.db
+*.sqlite
+*.sqlite3
+
+# ログファイル
+*.log
+logs/
+
+# エディタ関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS関連
+.DS_Store
+Thumbs.db
