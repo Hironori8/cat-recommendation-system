@@ -14,5 +14,4 @@ export function getEnv(key: string, defaultValue?: string): string {
 }
 
 // APIキーを取得
-export const OPENAI_API_KEY = getEnv('OPENAI_API_KEY')
 export const ANTHROPIC_API_KEY = getEnv('ANTHROPIC_API_KEY')
